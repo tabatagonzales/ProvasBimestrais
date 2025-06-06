@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provas Bimestrais - Colégio Frei Galvão</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <img src="https://i.ibb.co/Cp5SYBxw/Sem-t-tulo.png" alt="Colégio Frei Galvão" class="school-logo">
+                <h1 class="main-title">Provas Bimestrais</h1>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+            <button class="tab-btn active" data-tab="1ano">
+                <span class="tab-icon">🎓</span>
+                1º Ano EM
+            </button>
+            <button class="tab-btn" data-tab="5ano">
+                <span class="tab-icon">📝</span>
+                5º Ano EF
+            </button>
+        </nav>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Buscar por disciplina, data ou palavra-chave..."
+                    class="search-input"
+                >
+                <button class="search-clear" id="clearSearch">×</button>
+            </div>
+        </div>
+
+        <!-- Exam Cards Container -->
+        <main class="exams-container">
+            <div class="tab-content active" id="content-1ano">
+                <div class="exams-grid" id="exams-1ano"></div>
+            </div>
+            <div class="tab-content" id="content-5ano">
+                <div class="exams-grid" id="exams-5ano"></div>
+            </div>
+        </main>
+
+        <!-- No Results Message -->
+        <div class="no-results hidden" id="noResults">
+            <div class="no-results-icon">📚</div>
+            <h3>Nenhuma prova encontrada</h3>
+            <p>Tente buscar por outro termo ou limpe os filtros</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Desenvolvido por Tabata Gonzales</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
