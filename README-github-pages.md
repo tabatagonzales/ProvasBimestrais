@@ -138,4 +138,4 @@ Dúvidas ou sugestões? Abra uma issue ou envie um e-mail para tabatadmjoias@gma
 
 ---
 
-**Demo**: [Ver Aplicação em Funcionamento](https://tabatagonzales.github.io/painel-provas-frei-galvao)
+**Demo**: [Ver Aplicação em Funcionamento](https://tabatagonzales.github.io/ProvasBimestrais/)
