@@ -21,7 +21,7 @@ Uma interface web lúdica, estudantil e responsiva para exibição do cronograma
 
 ### 2. Clonar e Adicionar Arquivos
 ```bash
-git clone https://github.com/SEU_USUARIO/painel-provas-frei-galvao.git
+git clone https://github.com/tabatagonzales/painel-provas-frei-galvao.git
 cd painel-provas-frei-galvao
 
 # Copie os arquivos:
@@ -130,6 +130,12 @@ Para modificar o conteúdo das provas, edite o objeto `examData` no arquivo `app
 
 Este painel foi desenvolvido especificamente para o Colégio Frei Galvão seguindo suas diretrizes de identidade visual e funcionalidades pedagógicas.
 
+## 📬 Contato
+
+Desenvolvedora: @tabatagonzales
+
+Dúvidas ou sugestões? Abra uma issue ou envie um e-mail para tabatadmjoias@gmail.com
+
 ---
 
-**Demo**: [Ver Aplicação em Funcionamento](https://SEU_USUARIO.github.io/painel-provas-frei-galvao)
+**Demo**: [Ver Aplicação em Funcionamento](https://tabatagonzales.github.io/painel-provas-frei-galvao)
